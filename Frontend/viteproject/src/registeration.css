@@ -1,0 +1,137 @@
+
+.formbackground{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-box {
+  position: relative;
+  width: 380px;
+  height: 700px;
+  background: #1c1c1c;
+  border-radius: 8px;
+  overflow: hidden;
+ 
+}
+
+.register-box form {
+  position: absolute;
+  inset: 4px;
+  background: #222;
+  padding: 50px 40px;
+  border-radius: 8px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.register-box form h2 {
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.register-box form .input-box {
+  position: relative;
+  width: 300px;
+  margin-top: 35px;
+ 
+}
+
+.form-group input {
+  position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    /* color: #23242a; */
+    color: white;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+    border: 0px;
+}
+.form-group span{
+  position: absolute;
+  left: 0;
+  pointer-events: none;
+  color: #8f8f8f;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+}
+
+.form-group input:focus +span {
+  color: white;
+  font-size: 0.75em;
+  transform: translateY(-20px);
+}
+
+
+
+.form-group input:focus {
+  border-radius: 10px;
+  background: white;
+  color: black;
+}
+
+
+.register-box form .link a:nth-child(2):hover {
+  color: #fff;
+}
+
+.submit{
+  border-radius: 1px;
+  padding: 10px 25px;
+  background: linear-gradient(to right, #5f2c82, #49a09d);
+  border: 0px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.register-box::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 380px;
+  height: 420px;
+  background: linear-gradient(to right, #5f2c82, #49a09d, transparent);
+  transform-origin: bottom right;
+  z-index: 1;
+  animation: animate 6s linear infinite;
+}
+
+.register-pic-navlink .doyou{
+  
+  font-size: 15px;
+  color: #49a09d;
+}
+.form-group i{
+  color: white;
+  font-size: 19px;
+}
+.form-group{
+  padding: 5px;
+}
+/* .registerationbox{
+  margin-top: 180px;
+  
+} */
+
+.register-body {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  background: #1c1c1c;
+}
+

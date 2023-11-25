@@ -1,0 +1,48 @@
+.rowparent{
+    border: 1px solid;
+    padding: 20px;
+}
+.child{
+    border: 1px solid;
+}
+.childback{
+    /* background: #6d75758a; */
+}
+.shopname{
+   text-align: center;
+}
+.owner-info p{
+   
+}
+.owner-info p strong{
+    color: darkslategrey;
+}
+.imageicon{
+    color: darkslategrey;
+    text-align: center;
+    font-size: 60px;
+}
+.edditionalbtn{
+    background:darkslategrey ;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 0px;
+    margin-bottom: 10px;
+}
+.edditionalbtn:hover{
+    background: white;
+    color: black;
+    border: 1px solid darkslategrey ;
+   
+}
+.addshopP h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+
+}
+.addshopP{
+    border-bottom: 2px solid darkslategrey;
+}
